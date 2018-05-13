@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">iBeacon Service</string>
+    <string name="beacon_service_description">Periodically scans for beacons in the range. Applications may register for a specified beacon.</string>
+    <string name="beacon_service_name">iBeacon Service</string>
+</resources>
