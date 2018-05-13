@@ -1,7 +1,7 @@
 Library to monitor iBeacons using Android Service
 =======
 
-![Release](https://jitpack.io/v/KasemJaffer/bluetooth_utils.svg)
+![Release](https://jitpack.io/v/KasemJaffer/ibeacon_service.svg)
 https://jitpack.io/#KasemJaffer/ibeacon_service
 
 How to use
