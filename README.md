@@ -15,7 +15,7 @@ repositories {
 }
 
 dependencies {
-    implementation 'com.github.KasemJaffer:ibeacon_service:1.0.0'
+    implementation 'com.github.KasemJaffer:ibeacon_service:1.0.1'
 }
 ```
 
