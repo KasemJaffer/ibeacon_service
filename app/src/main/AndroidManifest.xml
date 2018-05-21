@@ -18,7 +18,7 @@
         </activity>
 
         <service
-            android:name="co.xtrava.ibeacon.v21.BeaconLocationService"
+            android:name="com.otech.ibeacon.v21.BeaconLocationService"
             android:description="@string/beacon_service_description"
             android:exported="false"
             android:label="@string/beacon_service_name" />

@@ -4,10 +4,10 @@ import android.os.Build
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.util.Log
-import co.xtrava.ibeacon.Beacon
-import co.xtrava.ibeacon.BeaconRegion
-import co.xtrava.ibeacon.BeaconServiceConnection
-import co.xtrava.ibeacon.ServiceProxy
+import com.otech.ibeacon.Beacon
+import com.otech.ibeacon.BeaconRegion
+import com.otech.ibeacon.BeaconServiceConnection
+import com.otech.ibeacon.ServiceProxy
 
 class MainActivity : AppCompatActivity(), BeaconServiceConnection.BeaconsListener {
 
