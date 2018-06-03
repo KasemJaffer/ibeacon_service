@@ -4,6 +4,8 @@ Library to monitor iBeacons using Android Service
 ![Release](https://jitpack.io/v/KasemJaffer/ibeacon_service.svg)
 https://jitpack.io/#KasemJaffer/ibeacon_service
 
+![Logo](https://raw.githubusercontent.com/KasemJaffer/ibeacon_service/master/app/src/main/res/mipmap-mdpi/ibeacon_logo.png)
+
 How to use
 ------------------------
 
@@ -18,6 +20,7 @@ dependencies {
     implementation 'com.github.KasemJaffer:ibeacon_service:1.0.2'
 }
 ```
+
 
 Full example
 ------------------------
