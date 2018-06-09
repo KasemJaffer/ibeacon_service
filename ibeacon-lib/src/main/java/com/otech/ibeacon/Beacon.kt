@@ -2,7 +2,7 @@ package com.otech.ibeacon
 
 import java.util.*
 
-open class Beacon internal constructor(val deviceAddress: String) {
+internal open class Beacon internal constructor(val deviceAddress: String) {
     var companyId: Int? = null
         internal set
     var uuid: UUID? = null

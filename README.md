@@ -17,7 +17,7 @@ repositories {
 }
 
 dependencies {
-    implementation 'com.github.KasemJaffer:ibeacon_service:1.0.2'
+    implementation 'com.github.KasemJaffer:ibeacon_service:1.0.3'
 }
 ```
 
@@ -90,4 +90,41 @@ class MainActivity : AppCompatActivity(), BeaconServiceConnection.BeaconsListene
         super.onDestroy()
     }
 }
+```
+
+```xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.otech.ibeaconservice">
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="com.otech.ibeacon.v21.BeaconLocationService"
+            android:description="@string/beacon_service_description"
+            android:exported="false"
+            android:label="@string/beacon_service_name" />
+
+    </application>
+
+</manifest>
 ```
